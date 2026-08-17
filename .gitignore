@@ -1,0 +1,32 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs e arquivos de execução
+logs/
+*.log
+npm-debug.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Ambiente e Configurações locais
+.env
+.env.local
+.env.*.local
+
+# Build e Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+.vscode/
