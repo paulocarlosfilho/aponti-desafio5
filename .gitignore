@@ -19,11 +19,16 @@ pids/
 .env.*.local
 
 # Build e Terraform
+# Build e Terraform
 .terraform/
 *.tfstate
 *.tfstate.*
 crash.log
 *.tfplan
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfplan
 
 # Sistema operacional
 .DS_Store
