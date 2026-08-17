@@ -22,7 +22,7 @@ jobs:
           install-awslocal: false
         env:
           LOCALSTACK_AUTH_TOKEN: ${{ secrets.LOCALSTACK_AUTH_TOKEN }}
-          SERVICES: "s3"
+          SERVICES: "s3,ec2"
 
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
